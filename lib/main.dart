@@ -50,7 +50,7 @@ class LangPalApp extends StatelessWidget {
             brightness: Brightness.dark,
             scaffoldBackgroundColor: const Color(0xFF121212),
             bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-              selectedItemColor: primaryPrimary,
+              selectedItemColor: primaryColor,
               unselectedItemColor: Colors.grey,
             ),
           ),
