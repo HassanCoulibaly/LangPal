@@ -4,6 +4,8 @@ import 'package:langpal_app/theme_provider.dart';
 import 'package:langpal_app/home_screen.dart';
 import 'package:langpal_app/profile_screen.dart';
 import 'package:langpal_app/messages_screen.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
