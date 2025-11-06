@@ -7,11 +7,11 @@ class FindPartnerScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Mock data for the list
     final List<Map<String, String>> partners = [
-      {'name': 'Maria', 'native': 'Spanish', 'learning': 'English'},
-      {'name': 'Kenji', 'native': 'Japanese', 'learning': 'French'},
-      {'name': 'Ahmed', 'native': 'Arabic', 'learning': 'English'},
-      {'name': 'Chloe', 'native': 'French', 'learning': 'Japanese'},
-      {'name': 'David', 'native': 'English', 'learning': 'Spanish'},
+      {'name': 'John', 'native': 'Spanish', 'learning': 'English'},
+      {'name': 'Nakayama', 'native': 'Japanese', 'learning': 'French'},
+      {'name': 'Sayid', 'native': 'Arabic', 'learning': 'English'},
+      {'name': 'Martine', 'native': 'French', 'learning': 'Japanese'},
+      {'name': 'Pedro', 'native': 'English', 'learning': 'Spanish'},
     ];
 
     return Scaffold(
