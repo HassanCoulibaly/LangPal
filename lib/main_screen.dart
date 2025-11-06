@@ -34,14 +34,9 @@ class _MainScreenState extends State<MainScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        // Using your logo in the title
-        title: Image.asset(
-          'assets/images/LangPal_Logo1.png',
-          height: 40, // Adjust height as needed
-        ),
+        title: Image.asset('assets/images/LangPal_Logo1.png', height: 45),
         centerTitle: true,
         actions: [
-          // Optional Feature: Dark Mode Toggle
           Switch(
             value: isDarkMode,
             onChanged: (value) {
@@ -67,6 +62,7 @@ class _MainScreenState extends State<MainScreen> {
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
+        backgroundColor: Colors.green[100],
       ),
     );
   }

@@ -17,7 +17,7 @@ class LangPalApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Using a green theme to match the "Duolingo" feel
+    // Theme to match the "Duolingo" concept
     const primaryColor = Colors.green;
 
     return Consumer<ThemeProvider>(
@@ -31,7 +31,7 @@ class LangPalApp extends StatelessWidget {
             brightness: Brightness.light,
             scaffoldBackgroundColor: Colors.white,
             appBarTheme: const AppBarTheme(
-              backgroundColor: Colors.white,
+              backgroundColor: Colors.green,
               elevation: 1,
               iconTheme: IconThemeData(color: Colors.black87),
               titleTextStyle: TextStyle(
