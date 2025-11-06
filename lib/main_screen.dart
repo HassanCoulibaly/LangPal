@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:langpal_app/theme_provider.dart';
 import 'package:langpal_app/home_screen.dart';
 import 'package:langpal_app/profile_screen.dart';
-import 'package:langpal_app/messages_screen.dart'; // A placeholder screen
+import 'package:langpal_app/messages_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
