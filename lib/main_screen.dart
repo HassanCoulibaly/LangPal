@@ -17,7 +17,7 @@ class _MainScreenState extends State<MainScreen> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
-    MessagesScreen(), // Placeholder for a 'messages' tab
+    MessagesScreen(),
     ProfileScreen(),
   ];
 
