@@ -32,7 +32,6 @@ class HomeScreen extends StatelessWidget {
             icon: const Icon(Icons.search),
             label: const Text('Find a Partner'),
             onPressed: () {
-              // This navigates to the new screen
               Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -41,7 +40,7 @@ class HomeScreen extends StatelessWidget {
               );
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.green, // Duolingo green
+              backgroundColor: Colors.green,
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(vertical: 16),
               textStyle: const TextStyle(
