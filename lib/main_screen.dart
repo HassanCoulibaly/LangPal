@@ -34,7 +34,7 @@ class _MainScreenState extends State<MainScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Image.asset('assets/images/LangPal_Logo1.png', height: 45),
+        title: Image.asset('assets/images/LangPal_Logo3.png', height: 45),
         centerTitle: true,
         actions: [
           Switch(
